@@ -35,3 +35,7 @@ div{
         top: 50%;
     }
 }
+
+#fotodeperfil{
+    box-shadow: 5px 5px 20px black;
+}

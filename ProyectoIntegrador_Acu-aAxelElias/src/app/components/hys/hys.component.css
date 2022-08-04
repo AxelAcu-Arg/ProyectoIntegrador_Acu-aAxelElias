@@ -1,16 +1,9 @@
 .row{
     padding: 20px;
     margin-right: 0%;
-}
-
-div{
     background-color: #86a8cc;
 }
 
-h1,h3{
-    display: inline;
-}
-
-#educacion{
+div{
     text-align: center;
 }

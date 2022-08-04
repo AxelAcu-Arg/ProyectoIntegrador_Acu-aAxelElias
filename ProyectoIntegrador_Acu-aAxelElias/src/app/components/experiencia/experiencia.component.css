@@ -10,3 +10,7 @@ div{
 h1,h3{
     display: inline;
 }
+
+#experiencia{
+    text-align: center;
+}

@@ -1,11 +1,45 @@
-#logoAP{
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    margin-right: 0;
+}
+
+#logoAP {
     width: 150px;
     margin-left: 10px;
 }
 
-span{
-    font-size: large;
+span {
+    font-size: medium;
     font-weight: 800;
     vertical-align: middle;
     color: white;
+}
+
+img {
+    width: 50px;
+    margin-right: 0.3em;
+}
+
+.redes {
+    margin-right: 15px;
+}
+
+.btn {
+    border-width: 2.5px;
+}
+
+@media(max-width: 610px){
+    .container {
+        flex-direction: column;
+    }
+
+    .redes {
+        display: flex;
+        align-items: center;
+    }
 }

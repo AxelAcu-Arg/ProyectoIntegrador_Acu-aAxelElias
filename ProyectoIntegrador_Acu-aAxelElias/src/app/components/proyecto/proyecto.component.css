@@ -19,6 +19,7 @@
 
 h1,h2,h4{
     display: inline;
+    text-align: left;
 }
 
 div{
